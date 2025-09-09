@@ -13,27 +13,6 @@ Image Fetcher is a Python project designed to download images from the internet 
 
 - Python 3.7+
 - `requests` library
-- `Pillow` library (optional, for image processing)
-
-Install dependencies with:
-
-```bash
-pip install requests pillow
-```
-
-## Usage
-
-### Downloading an Image from a URL
-
-```bash
-python image_fetcher.py --url "https://example.com/image.jpg" --output "./images"
-```
-
-### Downloading Images by Search Query
-
-```bash
-python image_fetcher.py --query "cats" --limit 5 --output "./images"
-```
 
 ## Arguments
 
